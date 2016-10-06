@@ -20,7 +20,7 @@
     "Nuki.io",
     "Pimatic"
   ],
-  "version": "0.9.0",
+  "version": "0.9.1",
   "homepage": "https://github.com/mwittig/pimatic-nuki/tree/master",
   "private": false,
   "repository": {
