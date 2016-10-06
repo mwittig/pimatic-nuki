@@ -69,13 +69,14 @@ module.exports = (env) ->
 
       @nuki.lockState()
       .then (state) =>
+        @base.debug "Lock state is #{state}"
         if typeof state is "string"
           state = parseInt state
         @_setContact (state is nukiApi.lockState.LOCKED)
       .catch (error) =>
         @base.error "Error:", error
       .finally () =>
-        @base.scheduleUpdate @_requestUpdate, @interval * 1000, true
+        @base.scheduleUpdate @_requestUpdate, @config.interval * 1000
 
     getContact: () -> Promise.resolve @_contact
 
