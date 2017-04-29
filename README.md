@@ -1,7 +1,6 @@
 # pimatic-nuki
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/mwittig/pimatic-nuki.svg)](https://greenkeeper.io/)
-
 [![Npm Version](https://badge.fury.io/js/pimatic-nuki.svg)](http://badge.fury.io/js/pimatic-nuki)
 [![Build Status](https://travis-ci.org/mwittig/pimatic-nuki.svg?branch=master)](https://travis-ci.org/mwittig/pimatic-nuki)
 [![Dependency Status](https://david-dm.org/mwittig/pimatic-nuki.svg)](https://david-dm.org/mwittig/pimatic-nuki)
