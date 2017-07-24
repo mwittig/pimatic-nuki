@@ -39,8 +39,8 @@
   ],
   "configSchema": "nuki-config-schema.coffee",
   "dependencies": {
-    "nuki-bridge-api": "^1.0.3",
-    "pimatic-plugin-commons": "^0.9.3"
+    "nuki-bridge-api": "^1.1.0",
+    "pimatic-plugin-commons": "^0.9.5"
   },
   "optionalDependencies": {},
   "peerDependencies": {
